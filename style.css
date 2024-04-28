@@ -154,3 +154,23 @@ video {
 figcaption {
   padding: 10px;
 }
+
+.studioIllustration {
+  display: flex;
+}
+.leftStudio {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.leftStudio img {
+  width: 100%;
+}
+
+.rightStudio {
+  margin: 0 auto;
+  width: 50%;
+}
+.rightStudio img {
+  width: 100%;
+}
