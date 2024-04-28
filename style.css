@@ -268,5 +268,37 @@ figcaption {
 }
 
 footer {
-  margin: 130px 0 0;
+  width: 85%;
+  margin: 130px auto;
+}
+
+.mediaLegislation {
+}
+.infos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 85px 0;
+}
+
+.infos div {
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: 0 0 20px 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mentions ul {
+  display: flex;
+}
+
+.mentions ul li {
+  margin: 100px 20px 0 0;
+  font-size: 0.9rem;
 }
