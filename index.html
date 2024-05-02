@@ -9,38 +9,51 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav class="navbars">
+    <header class="head">
+      <nav class="navbars" id="navbar">
         <div class="navRightContent">
-          <img src="" alt="logo" />
+          <svg
+            role="img"
+            aria-label="Logo Ableton"
+            class="main-nav__logo__image"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="21"
+            viewBox="0 0 45 21"
+          >
+            <path
+              d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"
+            ></path>
+          </svg>
           <ul>
-            <li>Live</li>
-            <li>Push</li>
-            <li>Link</li>
-            <li>Shop</li>
-            <li>Packs</li>
-            <li>Help</li>
-            <li>More +</li>
+            <li><a href="#">Live</a></li>
+            <li><a href="#">Push</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Packs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">More +</a></li>
           </ul>
         </div>
 
         <ul>
-          <li>Try Live for free</li>
-          <li>Account</li>
-          <li>Log out</li>
+          <li><a href="#">Try Live 12 for free</a></li>
+          <li><a href="#">Log in or register</a></li>
         </ul>
       </nav>
 
       <div class="delimit"></div>
 
-      <div class="aboutNav">
+      <div class="aboutNav" id="aboutNav">
         <ul>
-          <li>About</li>
-          <li>Jobs</li>
-          <li>Apprenticeships</li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Apprenticeships</a></li>
         </ul>
       </div>
-
+    </header>
+    <main>
       <div class="title">
         <svg
           class="page-about__header__ableton-logo"
@@ -58,8 +71,6 @@
           </g>
         </svg>
       </div>
-    </header>
-    <main>
       <section class="about_text">
         <h1>
           We make Live, Push, Note and Link — unique software and hardware for
@@ -242,7 +253,7 @@
       <div class="delimit"></div>
     </main>
     <footer>
-      <h2>Ableton</h2>
+      <h2><a href="#">Ableton</a></h2>
       <section class="mediaLegislation">
         <div class="infos">
           <div class="socialMedia">
@@ -299,18 +310,34 @@
       <div class="links">
         <div class="mentions">
           <ul>
-            <li>Contact Us</li>
-            <li>Press Resources</li>
-            <li>Legal Info</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Settings</li>
-            <li>Imprint</li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Press Resources</a></li>
+            <li><a href="#">Legal Info</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Cookie Settings</a></li>
+            <li><a href="#">Imprint</a></li>
           </ul>
         </div>
         <div class="company">
-          <span>Made in Berlin</span> <img src="" alt="company logo" />
+          <span>Made in Berlin</span>
+          <svg
+            role="img"
+            aria-label="Logo Ableton"
+            class="main-nav__logo__image"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+            width="45"
+            height="21"
+            viewBox="0 0 45 21"
+          >
+            <path
+              d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"
+            ></path>
+          </svg>
         </div>
       </div>
     </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

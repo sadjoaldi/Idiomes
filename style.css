@@ -9,10 +9,16 @@
 }
 
 header {
-  margin-top: 20px;
+  position: fixed;
+  transition: top 0.5s ease;
+  width: 100vw;
+  background: #ffffffb0;
+  font-weight: 700;
+  z-index: 1000;
 }
 
 .navbars {
+  margin-top: 20px;
   display: grid;
   align-items: center;
   grid-template-columns: repeat(2, 1fr);
@@ -33,6 +39,7 @@ header {
   justify-content: flex-end;
   align-items: center;
 }
+
 .navbars ul li {
   margin: 0 3%;
 }
@@ -43,6 +50,11 @@ header {
   width: 100%;
 }
 
+.aboutNav {
+  height: 60px;
+  top: 0;
+  transition: top 0.5s;
+}
 .aboutNav ul {
   display: flex;
   justify-content: flex-start;
@@ -53,9 +65,14 @@ header {
   margin: 0 2% 20px;
 }
 
+.aboutNav ul li:first-child {
+  font-size: 1.5rem;
+  color: blue;
+}
+
 .title {
   max-width: 85%;
-  margin: 0 auto;
+  margin: 142px auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -356,4 +373,14 @@ footer h3 {
 
 .mentions ul li {
   font-size: 0.9rem;
+  margin-right: 15px;
+}
+.company {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company span {
+  margin-right: 20px;
 }
